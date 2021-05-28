@@ -18,6 +18,7 @@ html {
 body {
   overflow-x: hidden;
   font-family: 'Open Sans', sans-serif;
+  height: 10000px;
 }
 
 /*==========================================
@@ -109,5 +110,89 @@ header .hero a {
 header .hero a:hover {
   border: 3px solid #80aa37;
   color: #e0e0e0;
+}
+
+/*==========================================
+Optimized-Body Css
+==========================================*/
+.optimize-body {
+  background: url(/img/sec1-bg.jpg);
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 30px 0;
+}
+
+.optimize-body .content {
+  background: rgba(18, 40, 62, 0.8);
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 20px 0;
+}
+
+.optimize-body .content .texts {
+  height: 100%;
+}
+
+.optimize-body .content .texts .button a {
+  background: none;
+  border: 2px solid #fff;
+  padding: 8px 50px;
+  -webkit-transition: .2s ease all;
+  transition: .2s ease all;
+}
+
+.optimize-body .content .texts .button a:hover {
+  border: 2px solid silver;
+  color: silver;
+}
+
+/*==========================================
+Our Process Css
+==========================================*/
+.our-process {
+  padding: 100px 0 50px 0;
+}
+
+.our-process .contents .texts {
+  cursor: pointer;
+}
+
+.our-process .contents .texts:hover i {
+  color: #a0ce4e;
+  border: 2px solid #a0ce4e;
+}
+
+.our-process .contents .texts:hover h3 {
+  color: #a0ce4e;
+}
+
+.our-process .contents .texts i {
+  color: #12283e;
+  font-size: 50px;
+  padding: 20px;
+  border: 2px solid #12283e;
+  border-radius: 50%;
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+}
+
+.our-process .contents .texts .img {
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.our-process .contents .bottom-head {
+  color: #838383;
 }
 /*# sourceMappingURL=style.css.map */
