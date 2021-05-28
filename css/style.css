@@ -9,7 +9,6 @@ Common Css
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  overflow-x: hidden;
 }
 
 html {
@@ -17,6 +16,7 @@ html {
 }
 
 body {
+  overflow-x: hidden;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -51,6 +51,7 @@ p {
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   font-size: 16px;
+  line-height: 30px;
 }
 
 a {
@@ -58,9 +59,55 @@ a {
   font-weight: normal;
   font-size: 18px;
   text-decoration: none;
+  color: #fff;
 }
 
 a:hover {
   text-decoration: none;
+  color: #fff;
+}
+
+/*==========================================
+Header Css
+==========================================*/
+header {
+  background: url(/img/hero-bg.jpg);
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0 0 50px 0;
+}
+
+header .hero {
+  height: 87vh;
+  padding-bottom: 50px;
+}
+
+header .hero h1 {
+  color: #fff;
+}
+
+header .hero span {
+  color: #a0ce4e;
+}
+
+header .hero p {
+  color: #fff;
+}
+
+header .hero a {
+  border: 3px solid #a0ce4e;
+  padding: 10px 20px;
+  -webkit-transition: .2s ease all;
+  transition: .2s ease all;
+}
+
+header .hero a:hover {
+  border: 3px solid #80aa37;
+  color: #e0e0e0;
 }
 /*# sourceMappingURL=style.css.map */

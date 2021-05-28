@@ -15,7 +15,7 @@ Common Css
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
+    
 }
 
 html{
@@ -23,6 +23,7 @@ html{
 }
 
 body{
+    overflow-x: hidden;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -58,6 +59,7 @@ p{
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     font-size: 16px;
+    line-height: 30px;
 }
 
 a{
@@ -65,9 +67,49 @@ a{
     font-weight: normal;
     font-size: 18px;
     text-decoration: none;
-
+    color: $white-color;
     &:hover{
         text-decoration: none;
+        color: $white-color;
     }
 }
 
+
+/*==========================================
+Header Css
+==========================================*/
+
+header{
+    background: url(/img/hero-bg.jpg);
+    width: 100%;
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0 0 50px 0;
+    .hero{
+        height: 87vh;
+        padding-bottom: 50px;
+        h1{
+            color: $white-color;
+        }
+
+        span{
+            color: $secondary-color;
+        }
+
+        p{
+            color: $white-color;
+        }
+
+        a{
+            border: 3px solid $secondary-color;
+            padding: 10px 20px;
+            transition: .2s ease all;
+            &:hover{
+                border: 3px solid #80aa37;
+                color: rgb(224, 224, 224);
+            }
+        }
+    }
+}
