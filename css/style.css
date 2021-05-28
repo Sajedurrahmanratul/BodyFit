@@ -1,0 +1,66 @@
+/*==========================================
+Variable Css
+==========================================*/
+/*==========================================
+Common Css
+==========================================*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*==========================================
+Fonts Css
+==========================================*/
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
