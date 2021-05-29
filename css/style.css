@@ -19,7 +19,9 @@ html {
 body {
   overflow-x: hidden;
   font-family: 'Open Sans', sans-serif;
-  height: 10000px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 /*==========================================
@@ -381,6 +383,55 @@ Social Medias Css
   color: #fff;
 }
 
+/*==========================================
+Footer Css
+==========================================*/
+footer {
+  background: #a0ce4e;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 100px 0;
+}
+
+footer .contact h3 {
+  color: #12283e;
+}
+
+footer .form input {
+  background: none;
+  border: 1px solid white;
+  color: white;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+footer .form a {
+  background: #12283e;
+  padding: 8px 30px;
+}
+
+/*==========================================
+Copyright Css
+==========================================*/
+.copyright {
+  background: #12283e;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 20px 0 10px 0;
+}
+
+.copyright a {
+  margin-left: 5px;
+  font-size: 16px;
+}
+
+/*==========================================
+Imports Css
+==========================================*/
 /* Slider */
 .slick-loading .slick-list {
   background: #fff url("./ajax-loader.gif") center center no-repeat;

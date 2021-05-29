@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BodyFit</title>
+    <!---AOS CDN-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!---Bootstrap CDN-->
     <link
       rel="stylesheet"
@@ -49,7 +51,7 @@
           </div>
       </div>
     </nav>
-    <div class="hero d-flex align-items-center">
+    <div class="hero d-flex align-items-center " data-aos="fade-right">
       <div class="container">
         <h1 class="text-uppercase ">Welcome To body<span>Fit</span></h1>
         <p class="mb-5">Working from home meant we could vary snack and coffee breaks, change <br>
@@ -79,7 +81,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-xl-5 col-lg-5 col-md-12 col-sm-12">
+            <div class="col-12 col-xl-5 col-lg-5 col-md-12 col-sm-12" >
               <div class="texts d-flex flex-column justify-content-center ">
                 <h2 class="text-left text-xl-right text-lg-right text-md-left text-sm-left text-white">Optimized Your Body</h2>
               <h3 class="text-left text-xl-right text-lg-right text-md-left text-sm-left text-white">Start Your Trainning Today</h3>
@@ -200,7 +202,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12 mb-5">
-            <div class="women">
+            <div class="women" data-aos="fade-right">
               <h3 class="text-uppercase mb-2 text-white">Women Class</h3>
               <p class="text-white mb-4">Lorem ipsum dolor sit amet, consectetur adi sollicitudin. <br>
                 Suspendisse pulvinar, velit nec pharetra interdum, <br>
@@ -212,7 +214,7 @@
             </div>
           </div>
           <div class="col-12">
-            <div class="men">
+            <div class="men " data-aos="fade-left">
               <h3 class="text-uppercase mb-2 text-right" >Mens Class</h3>
               <p class="text-right mb-4">
                 Lorem ipsum dolor sit amet, consectetur adi sollicitudin. <br>
@@ -400,7 +402,83 @@ tellus neque vitae elit
         </div>
       </section>
      <!---Socials End-->
-
+      <!---Footer Start-->
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-xl-4 col-lg-4 col-md-4 col-sm-6">
+              <div class="about">
+                <img src="/img/logo-footer.png" alt="image here" class="img-fluid mb-4">
+                <p class="text-white mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                <p class="text-white">quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+              </div>
+            </div>
+            <div class="col-12 col-xl-4 col-lg-4 col-md-4 col-sm-6">
+              <div class="contact">
+              <h3 class="text-uppercase mt-3">Contact</h3>
+              <p class="text-white mb-4">Operating Hours: Monday to Friday 10:00 to 11.30. Saturdays 12:00 to 01:00. Sundays 03:00 to 04.30. Closed on public holidays.</p>  
+              <div class="address mb-2">
+                <div class="head d-flex">
+                  <i class="fab fa-telegram-plane h2 mr-3 text-white"></i>
+                  <h3 class="text-uppercase mt-1">Address</h3>
+                </div>
+                <p class="text-white">42/16, GM Chowdhury Road, 
+                  Shipyard 9201, Khulna.</p>
+              </div>
+              <div class="phone d-flex mb-3">
+                <i class="fas fa-mobile-alt h3 text-white mr-2"></i>
+                <h3 class="text-uppercase mt-1 mr-2">Phone:</h3>
+                <h3 class="mt-1 text-white">+8801918 691 601</h3>
+              </div>
+              <div class="fax d-flex mb-3">
+                <i class="fas fa-tty h3 text-white mr-2"></i>
+                <h3 class="text-uppercase mr-2">Fax:</h3>
+                <h3 class="text-white">+123 555 3000</h3>
+              </div>
+              <div class="mail">
+                <div class="mails d-flex">
+                  <i class="fas fa-envelope h3 text-white mr-2"></i>
+                  <h3 class="text-uppercase mr-2">Mail:</h3>
+                  <h3 class="text-white">sajedurrahml@gmail.com</h3>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="col-12 col-xl-4 col-lg-4 col-md-4 col-sm-6 mt-3">
+              <h3 class="text-uppercase mb-3">Newslatter subscribe</h3>
+              <p class="mb-4 text-white">Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore.</p>
+                <div class="form">
+                  <input type="text" class="mb-2"  placeholder="Name(required)">
+                  <input type="email" class="mb-4"  placeholder="E-mail(required)">
+                  <a href="#" class="text-uppercase">Send</a>
+                </div>
+               
+            </div>
+          </div>
+          
+        </div>
+      </footer>
+       <!---Footer End  -->
+      <section class="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+            <p class="text-white ">Copyright@2015-Designed by Mustafa</p>
+          </div>
+          <div class="col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 mt-1">
+            <a href="#" class="text-white text-uppercase p">Home</a>
+            <a href="#" class="text-white text-uppercase p">Features</a>
+            <a href="#" class="text-white text-uppercase p">Portfolio</a>
+            <a href="#" class="text-white text-uppercase p">Reviews</a>
+            <a href="#" class="text-white text-uppercase p">Shop</a>
+            <a href="#" class="text-white text-uppercase p">Blog</a>
+            <a href="#" class="text-white text-uppercase p">Contact</a>
+          </div>
+        </div>
+      </div>
+    </section>
      <!---Jquery-->
    <script
    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -420,6 +498,8 @@ tellus neque vitae elit
       crossorigin="anonymous"
     ></script>
 
+    <!--AOS Files-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <!--js Files-->
     <script src="/js/slick.min.js"></script>
     <script src="/js/style.js"></script>

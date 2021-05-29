@@ -25,7 +25,7 @@ html{
 body{
     overflow-x: hidden;
     font-family: 'Open Sans', sans-serif;
-    height: 10000px;
+    height: fit-content;
 }
 
 /*==========================================
@@ -380,6 +380,62 @@ Social Medias Css
         color: $white-color;
     }
 }
+
+
+/*==========================================
+Footer Css
+==========================================*/
+
+footer{
+    background: $secondary-color;
+    width: 100%;
+    height: fit-content;
+    padding: 100px 0;
+
+    .contact{
+        h3{
+            color: #12283e;
+        }
+    }
+
+    .form{
+        
+        input{
+            background: none;
+            border: 1px solid white;
+            color: white;
+            width: 100%;
+            padding: 10px 20px ;
+            
+        }
+        
+        a{
+            background: $primary-color;
+            padding: 8px 30px;
+        }
+    }
+
+    
+}
+
+/*==========================================
+Copyright Css
+==========================================*/
+.copyright{
+    background: $primary-color;
+    width: 100%;
+    height: fit-content;
+    padding: 20px 0 10px 0;
+    a{
+        margin-left: 5px;
+        font-size: 16px;
+    }
+}
+
+
+/*==========================================
+Imports Css
+==========================================*/
 
 
 @import "slick-theme";
